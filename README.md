@@ -29,7 +29,7 @@ The key design principle was **detection independence**: a separate physical tel
 
 The training scenario modeled a multi-stage intrusion, beginning with credential compromise or remote access, followed by lateral movement, tampering with an AI-assisted monitoring configuration, and ransomware disruption of a simulated surgical planning file. The project mapped attacker behaviors to MITRE ATT&CK and considered patient-safety, operational continuity, and incident-response implications.
 
-See [Threat Scenario](docs/threat-scenario.md).
+See [Threat Scenario](threat-scenario.md).
 
 ## Detection engineering
 
@@ -41,19 +41,19 @@ The capstone explored three complementary sensor channels:
 
 The proposed compound-event logic required multiple sensor deviations within a shared observation window to reduce single-channel false positives. The team presentation includes Grafana sensor telemetry and a demonstration plan using magnets, heat, and radio proxies. These are **lab demonstrations**, not clinical validation.
 
-See [Detection Architecture](docs/detection-architecture.md).
+See [Detection Architecture](detection-architecture.md).
 
 ## Threat intelligence and governance
 
 The project examined how to connect public CVE, CISA KEV, ransomware, and vendor information to a defined healthcare technology asset inventory. It also documented an ISO 27001-aligned governance approach with policies for information security, backup/recovery, and detection/response. This does **not** imply ISO certification.
 
-See [Threat Intelligence & Governance](docs/threat-intelligence-and-governance.md).
+See [Threat Intelligence & Governance](threat-intelligence-and-governance.md).
 
 ## Incident-response exercise
 
 The Delta 2 presentation included a **simulated GitHub personal access token exposure** and a response plan covering token revocation, investigation, secret rotation, containment, and prevention. **Melanie Aljabari was listed as Communications Lead**, responsible for timestamping actions and stakeholder notifications within the team exercise.
 
-See [Incident Response Exercise](docs/incident-response-exercise.md).
+See [Incident Response Exercise](incident-response-exercise.md).
 
 ## My contribution and professional relevance
 
